@@ -7,7 +7,7 @@
     <style>
         body{
             font-family: 'Inter', sans-serif;
-            background:url('https://staticg.sportskeeda.com/editor/2020/06/d81b7-15913514877448-800.jpg') no-repeat;
+            background:url('/images/Bg.jpeg') no-repeat;
             background-size: cover;
             background-position: center;
             min-height: 100vh;
@@ -36,18 +36,36 @@
 .contents p{
     margin:12px 10px;
 }
+#heading{
+    color: black;
+    font-size: 28px;
+
+    padding: 4px 2px;
+}
     </style>
 </head>
 <body>
     <div class="contents">
+            <p id="heading"><b>Welcome to the Virat Kohli Website!</b></p>
         <p class="para">
-            Virat Kohli is an Indian international cricketer widely regarded as one of the finest batsmen in the world. Born on November 5, 1988, in Delhi, India, Kohli made his debut for the Indian cricket team in 2008. He quickly gained attention for his exceptional batting skills, determination, and leadership qualities.
+            Celebrating the Journey of a Cricketing Maestro
+            Welcome to the digital home of Virat Kohli, where the legacy of a cricketing legend unfolds. Dive into the world of passion, perseverance, and unparalleled sportsmanship.
 
-        <p class="para">Kohli is known for his aggressive style of play, remarkable consistency, and ability to chase down targets under pressure. He has set numerous records across all formats of the game and has established himself as a modern-day cricketing legend.
+            <br>Explore Virat's Universe
+            Discover His Story
+            <br>
+            Embark on a captivating journey tracing Virat Kohli's evolution from a determined youngster with a cricket bat to a global icon revered for his on-field mastery.
+
+        <p class="para">Achievements Galore<br>
+            Witness the records shattered, milestones conquered, and the countless moments that define Virat Kohli's unparalleled legacy in cricket history.
         </p>
-        <p>In 2013, Kohli was appointed the vice-captain of the Indian team and later became the captain across formats. Under his leadership, India achieved significant milestones, including historic Test series victories in Australia and other notable triumphs.
+        <p class="para">Leadership & Inspiration<br>
+            Delve into the leadership qualities that set Virat apart, inspiring not just victories but a generation of aspiring athletes.
         </p>
-        <p class="para">Off the field, Kohli is recognized for his fitness regimen and commitment to a healthy lifestyle, setting new standards for professional athletes. His dedication to the sport, both physically and mentally, has inspired countless fans globally.
+        <p class="para">Beyond Cricket<br>
+            Uncover Virat's multifaceted persona—from his fitness advocacy and philanthropic endeavors to his ventures beyond the cricket field.
+
+            Join the Celebration
         </p>
         <p class="para">Kohli's impact on the cricketing world extends beyond his on-field performances. He's an influential figure and a role model for aspiring cricketers, admired for his passion, work ethic, and philanthropic endeavors.
         </p>
