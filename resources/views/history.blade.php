@@ -4,7 +4,7 @@
     <style>
         .container {
             max-width: 640px;
-            margin: 35px auto;
+            margin: 50px auto;
             font-family: Arial, sans-serif;
             line-height: 1.6;
         }
@@ -31,28 +31,48 @@
 }
 .imgRight {
     position: absolute;
-    top: 86px;
+    top: 9em;
     left: 875px;
     max-width: 293px;
 }
 .imgLeft {
     position: absolute;
-    top: 313px;
+    top: 24em;
     right: 860px;
     max-width: 298px;
 }
 .img3{
-    top: 555px;
+    top: 36em;
     max-width: 330px;
 }
 .img4{
-    top:806px;
-    max-width: 330px;
+    top:54em;
+    max-width: 340px;
 }
-
+.img5{
+    top: 72em;
+    max-width: 335px;
+}
+.img6{
+    top:86em;
+}
+.img7{
+    top: 100em;
+}
+.history-heading {
+  font-size: 3em;
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
     </style>
 </head>
 <body>
+    <div class="history-heading">
+        History
+    </div>
     <div class="container">
         <div class="pars leftalign">
             <p><b>Early Life and Entry into Cricket</b><br><br>
@@ -77,14 +97,17 @@
         <div class="pars leftalign">
             <p><b>Captaincy and Leadership</b><br><br>
                 Kohli's leadership journey began when he was appointed the captain of the Indian cricket team for the U-19 World Cup in 2008. He took over the reins of the Test team in 2014, leading the team to significant victories, including India's first Test series win in Australia in 2018-2019. In 2017, he also took over the captaincy of the limited-overs formats (ODIs and T20Is).</p>
+                <img src="/images/img5.jpg" alt="img2" class="imgRight img5">
         </div>
         <div class="pars rightalign">
             <p><b>Personal Life and Off-field Influence</b><br><br>Personal Life and Off-field Influence:
                 Off the field, Kohli is known for his fitness regimen and dedication to maintaining a healthy lifestyle. His marriage to Bollywood actress Anushka Sharma in 2017 made headlines, and the couple has since been influential figures both in the sports and entertainment industries.</p>
+                <img src="/images/img6.jpg" alt="img2" class="imgLeft img6">
         </div>
         <div class="pars leftalign">
             <p><b>Transition and Future</b><br><br>
                 As of my last update, Kohli had stepped down as India's T20I captain, emphasizing a shift in his career focus. However, his dedication to cricket and aspirations for further achievements remain undiminished.</p>
+                <img src="/images/img7.jpg" alt="img2" class="imgRight img7">
         </div>
     </div>
 </body>
