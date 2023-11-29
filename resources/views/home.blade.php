@@ -1,79 +1,243 @@
 @extends('layout.app')
+
 @section('appContents')
+<html lang="en">
+
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+
     <style>
-        body{
-            font-family: 'Inter', sans-serif;
-            background:url('/images/Bg.jpeg') no-repeat;
-            background-size: cover;
-            background-position: center;
-            min-height: 100vh;
+        .mySlides {
+            position: relative;
+            display: inline-block;
         }
-        .contents{
-            display:flex;
-            flex-direction: column;
-            width:50%;
-            margin:25px 0px;
 
+        .slider-imgs {
+            width: 94%;
+            height: 50%;
+            margin-right: 3%;
+            margin-left: 3%;
+            border-radius: 5px;
+            opacity: 1.0;
         }
-        /* Styles to position the image at the top-right corner */
-.content {
-  position: relative;
-  /* Ensure the content area has a relative position */
-  padding-top: 10px; /* Adjust this value to create space for the image */
-}
 
-.corner-image {
-    position: absolute;
-    top: -447px;
-    right: 47px;
-    max-width: 562px;
-    height: auto;
-}
-.contents p{
-    margin:12px 10px;
-}
-#heading{
-    color: black;
-    font-size: 28px;
+        #kohli-img1 {
+            width: 446px;
+    height: 367px;
+            border-radius: 20px;
+            float: left;
+            margin: 0px 20px;
+        }
 
-    padding: 4px 2px;
-}
+        #kohli-img2 {
+
+            height: 350px;
+    width: 449px;
+    border-radius: 20px;
+    float: right;
+    margin: 0px;
+        }
+
+        .rightblock {
+            width:97%;
+            margin-left: 5px;
+            line-height: 1.5;
+            margin-left: 26px;
+    margin-top: 8px;
+        }
+
+        .left {
+            height: 400px;
+            margin-right: 100px;
+            line-height: 1.6;
+            margin-left: 30px;
+            width: 50%;
+            margin-top: 40px;
+        }
+
+        .info-section {
+            margin-top: 85px;
+            width: 100%;
+    display: flex;
+    flex-direction: row;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            position: relative;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.9s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        /* .fade { */
+        /* animation-name: fade; */
+        /* animation-duration: 1.5s; */
+        /* } */
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+
+        .sub-heads {
+            margin-top: 45px;
+            margin-left: 350px;
+            text-align: left;
+            font-weight: 700;
+            font-family: serif;
+            margin-bottom: -30px;
+            color: #fe4c1c;
+            font-size: 55px;
+        }
+
+        /* .home-title { */
+        /* float: left; */
+        /* height: 70%; */
+        /* font-family: 'Helvetica Neue', sans-serif; */
+        /* z-index: 5; */
+        /* transform: translate(25%, -120%); */
+        /* color: #fff; */
+        /* font-size: 130px; */
+        /* font-weight: 900; */
+        /* line-height: 1.5; */
+        /* text-shadow: 4px 4px 6px #000000; */
+        /* border: 10px solid black; */
+        /* } */
     </style>
+
+
 </head>
+
 <body>
-    <div class="contents">
-            <p id="heading"><b>Welcome to the Virat Kohli Website!</b></p>
-        <p class="para">
-            Celebrating the Journey of a Cricketing Maestro
-            Welcome to the digital home of Virat Kohli, where the legacy of a cricketing legend unfolds. Dive into the world of passion, perseverance, and unparalleled sportsmanship.
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img class="slider-imgs" src="/images/slider1.jpg">
+            {{-- <h1 class="home-title">Story <br> of Linus <br> Torvalds</h1> --}}
+        </div>
 
-            <br>Explore Virat's Universe
-            Discover His Story
-            <br>
-            Embark on a captivating journey tracing Virat Kohli's evolution from a determined youngster with a cricket bat to a global icon revered for his on-field mastery.
+        <div class="mySlides fade">
+            <img src="/images/slider2.jpg" class="slider-imgs">
+            {{-- <h1 class="home-title">Story <br> of Linus <br> Torvalds</h1> --}}
+        </div>
 
-        <p class="para">Achievements Galore<br>
-            Witness the records shattered, milestones conquered, and the countless moments that define Virat Kohli's unparalleled legacy in cricket history.
-        </p>
-        <p class="para">Leadership & Inspiration<br>
-            Delve into the leadership qualities that set Virat apart, inspiring not just victories but a generation of aspiring athletes.
-        </p>
-        <p class="para">Beyond Cricket<br>
-            Uncover Virat's multifaceted persona—from his fitness advocacy and philanthropic endeavors to his ventures beyond the cricket field.
+        <div class="mySlides fade">
+            <img src="/images/slider3.jpg" class="slider-imgs">
+            {{-- <h1 class="home-title">Story <br> of Linus <br> Torvalds</h1> --}}
+        </div>
 
-            Join the Celebration
-        </p>
-        <p class="para">Kohli's impact on the cricketing world extends beyond his on-field performances. He's an influential figure and a role model for aspiring cricketers, admired for his passion, work ethic, and philanthropic endeavors.
-        </p>
+        <div class="mySlides fade">
+            <img src="/images/slider4.jpg" class="slider-imgs">
+            {{-- <h1 class="home-title">Story <br> of Linus <br> Torvalds</h1> --}}
+        </div>
 
     </div>
-    {{-- <div class="content">
-        <img src="https://www.mykhel.com/img/2020/01/virat-kohli-cropped-1579060838.jpg" alt="Image Description" class="corner-image">
-        <!-- Other content of your webpage goes here -->
-      </div> --}}
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000);
+        }
+    </script>
+    <br><br>
+    <h1 class="sub-heads">Virat Kohli</h1>
+    <div class="info-section">
+        <div class="leftimg">
+            <img src="/images/linus.jpg" alt="no" Id="kohli-img1">
+        </div>
+        <div class="rightblock">
+            <p class="para">
+                Celebrating the Journey of a Cricketing Maestro
+                Welcome to the digital home of Virat Kohli, where the legacy of a cricketing legend unfolds. Dive into the world of passion, perseverance, and unparalleled sportsmanship. <br>
+
+                <br>Explore Virat's Universe
+                Discover His Story
+                <br><br>
+                Embark on a captivating journey tracing Virat Kohli's evolution from a determined youngster with a cricket bat to a global icon revered for his on-field mastery. <br><br>
+
+            <p class="para">Achievements Galore<br>
+                Witness the records shattered, milestones conquered, and the countless moments that define Virat Kohli's unparalleled legacy in cricket history.
+            </p>
+        </div>
+    </div>
+    <div class="info-section">
+        <div class="left">
+            <p class="para">Leadership & Inspiration<br>
+                Delve into the leadership qualities that set Virat apart, inspiring not just victories but a generation of aspiring athletes.
+            </p><br><br>
+            <p class="para">Beyond Cricket<br>
+                Uncover Virat's multifaceted persona—from his fitness advocacy and philanthropic endeavors to his ventures beyond the cricket field.
+
+                Join the Celebration
+            </p><br><br>
+            <p class="para">Kohli's impact on the cricketing world extends beyond his on-field performances. He's an influential figure and a role model for aspiring cricketers, admired for his passion, work ethic, and philanthropic endeavors.
+            </p><br><br>
+        </div>
+        <div class="rightimg">
+            <img src="/images/lius2.jpg" alt="no" id="kohli-img2">
+        </div>
+    </div>
+    <div style="height: 150px"></div>
 </body>
+
+</html>
 @endsection
