@@ -119,28 +119,13 @@
 
         .sub-heads {
             margin-top: 45px;
-            margin-left: 350px;
-            text-align: left;
+            text-align: center;
             font-weight: 700;
             font-family: serif;
             margin-bottom: -30px;
-            color: #fe4c1c;
+            color: rgb(164, 47, 37);
             font-size: 55px;
         }
-
-        /* .home-title { */
-        /* float: left; */
-        /* height: 70%; */
-        /* font-family: 'Helvetica Neue', sans-serif; */
-        /* z-index: 5; */
-        /* transform: translate(25%, -120%); */
-        /* color: #fff; */
-        /* font-size: 130px; */
-        /* font-weight: 900; */
-        /* line-height: 1.5; */
-        /* text-shadow: 4px 4px 6px #000000; */
-        /* border: 10px solid black; */
-        /* } */
     </style>
 
 

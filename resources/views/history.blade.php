@@ -14,6 +14,11 @@
             border-radius: 8px;
             padding: 20px;
             margin-bottom: 20px;
+            background: transparent;
+    border:2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color:black;
         }
 
         .pars p {
@@ -31,34 +36,27 @@
 }
 .imgRight {
     position: absolute;
-    top: 9em;
-    left: 875px;
+    top: 0em;
+    left: 745px;
     max-width: 293px;
 }
 .imgLeft {
     position: absolute;
-    top: 24em;
-    right: 860px;
+    top: 0em;
+    right: 730px;
     max-width: 298px;
 }
 .img3{
-    top: 36em;
     max-width: 330px;
 }
 .img4{
-    top:54em;
     max-width: 340px;
 }
 .img5{
-    top: 72em;
     max-width: 335px;
 }
-.img6{
-    top:86em;
-}
-.img7{
-    top: 100em;
-}
+
+
 .history-heading {
   font-size: 3em;
   text-align:center;
@@ -106,7 +104,7 @@
         </div>
         <div class="pars leftalign">
             <p><b>Transition and Future</b><br><br>
-                As of my last update, Kohli had stepped down as India's T20I captain, emphasizing a shift in his career focus. However, his dedication to cricket and aspirations for further achievements remain undiminished.</p>
+                As of my last update, Kohli had stepped down as India's T20I captain, emphasizing a shift in his career focus. However, his dedication to cricket and aspirations for further achievements remain undiminished.</p><br><br>
                 <img src="/images/img7.jpg" alt="img2" class="imgRight img7">
         </div>
     </div>

@@ -10,16 +10,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, sans-serif;
 }
 
 nav {
   background-color: #333;
-  position: sticky;
 }
-
+.head{
+    position: sticky;
+    top:0;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -47,15 +48,14 @@ nav ul li a:hover {
 </head>
 <body>
 
-<header>
+<header class="head">
     <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="/achievements">Achievements</a></li>
-          <li><a href="/work">Work</a></li>
           <li><a href="/history">History</a></li>
-          <li><a href="/books">Books</a></li>
+          <li><a href="/achievements">Achievements</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
 

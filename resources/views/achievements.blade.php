@@ -9,7 +9,7 @@
     body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+
   background-color: #f7f7f7;
   color: #333;
 }
@@ -20,10 +20,16 @@ main {
 }
 
 .records {
+    overflow: hidden;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: transparent;
+    border:2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color:black;
+    overflow: hidden;
 }
 
 h2{
@@ -37,6 +43,7 @@ h3 {
 ul {
   list-style: none;
   padding: 0;
+
 }
 
 .records li {
