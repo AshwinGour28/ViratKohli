@@ -60,7 +60,7 @@
     </style>
 </head>
 <body>
-    <h1 class="heading">Social Media Handlers of Virat Kohli</h1>
+    <h1 class="heading">Social Media Handlers</h1>
     <div class="card-group">
         <div class="card">
           <img src="/images/insta.jpg" class="card-img-top" alt="...">

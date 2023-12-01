@@ -16,6 +16,7 @@ body {
 
 nav {
   background-color: #333;
+
 }
 .head{
     position: sticky;
@@ -55,7 +56,7 @@ nav ul li a:hover {
           <li><a href="/about">About</a></li>
           <li><a href="/history">History</a></li>
           <li><a href="/achievements">Achievements</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/socialmedia">Social Media</a></li>
         </ul>
       </nav>
 

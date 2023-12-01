@@ -22,7 +22,7 @@
         }
 
         #kohli-img1 {
-            width: 446px;
+            width: 430px;
     height: 367px;
             border-radius: 20px;
             float: left;
